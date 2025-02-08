@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AdFriend Settings</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        width: 300px;
+        background-color: #f9f9f9;
+      }
+      h1 {
+        font-size: 18px;
+        color: #1e90ff;
+        text-align: center;
+      }
+      textarea {
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+      button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #1e90ff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0077cc;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AdFriend Settings</h1>
+    <textarea
+      id="widgetContent"
+      placeholder="Enter your custom widget content, one per line..."
+    ></textarea>
+    <button id="saveButton">Save</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
